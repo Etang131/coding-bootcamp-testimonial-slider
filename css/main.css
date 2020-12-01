@@ -7,6 +7,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  max-width: 1440px;
+}
+
 /* If any other slides are added they need to be displayed out*/
 .slide2 {
   display: none;
@@ -24,6 +28,7 @@ body {
   border-radius: 5px;
   margin-top: 5vh;
   width: 254px;
+  max-width: 540px;
 }
 
 .buttonContainer {
@@ -106,4 +111,81 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* media queries */
+@media screen and (min-width: 900px) {
+  .photo {
+    position: absolute;
+    width: 37.5%;
+    height: auto;
+    left: 51%;
+    top: 113px;
+  }
+
+  .testimonialMessage {
+    margin: auto;
+    position: absolute;
+    width: 44%;
+    height: 354px;
+    left: 11%;
+    top: 214px;
+    max-width: 635px;
+  }
+
+  .testimonial {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    max-width: 635px;
+    text-align: left;
+  }
+
+  .titleSection {
+    margin-top: 2vh;
+    text-align: left;
+  }
+
+  .name {
+    display: inline;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
+  }
+  .title {
+    display: inline;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
+    margin-left: 10px;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    width: 112px;
+    height: 56px;
+    left: 55%;
+    top: 80.5%;
+  }
+
+  .purpleBlob {
+    width: 50%;
+    height: auto;
+    top: 11.25%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+
+  .quoteImg {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 18%;
+    top: 214px;
+  }
+
+  .curveImg {
+    position: absolute;
+    width: 42%;
+    height: 150.94px;
+    left: 0px;
+    top: 649.06px;
+  }
 }
