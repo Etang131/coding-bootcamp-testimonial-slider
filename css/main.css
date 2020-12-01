@@ -7,6 +7,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* If any other slides are added they need to be displayed out*/
+.slide2 {
+  display: none;
+}
+
 .photoSection {
   display: flex;
   flex-direction: column;
