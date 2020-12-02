@@ -5,10 +5,15 @@
 
 body {
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
 }
 
 /* If any other slides are added they need to be displayed out*/
@@ -41,8 +46,8 @@ body {
   position: absolute;
   width: 80px;
   height: 40px;
-  left: 148px;
-  top: 267px;
+  left: 39%;
+  top: 42%;
   z-index: 1;
 }
 
@@ -84,23 +89,23 @@ body {
   position: absolute;
   width: 327px;
   height: 308px;
-  left: 24px;
-  top: 24px;
+  left: 6.4%;
+  top: 3.598%;
   z-index: -1;
 }
 
 .quoteImg {
   position: absolute;
-  width: 60px;
+  width: 16%;
   height: 50px;
-  left: 158px;
+  left: 42.13%;
   top: 324px;
 }
 
 .curveImg {
   position: absolute;
-  width: 285px;
-  height: 72px;
+  width: 76%;
+  height: auto;
   left: 0px;
   top: 594.95px;
 }
@@ -115,21 +120,25 @@ body {
 
 /* media queries */
 @media screen and (min-width: 900px) {
+  .container {
+    height: 800px;
+  }
+
   .photo {
     position: absolute;
     width: 37.5%;
     height: auto;
     left: 51%;
-    top: 113px;
+    top: 14.125%;
   }
 
   .testimonialMessage {
     margin: auto;
     position: absolute;
     width: 44%;
-    height: 354px;
+    height: 44.25%;
     left: 11%;
-    top: 214px;
+    top: 26.75%;
     max-width: 635px;
   }
 
@@ -167,8 +176,8 @@ body {
 
   .purpleBlob {
     width: 50%;
-    height: auto;
-    top: 11.25%;
+    height: 77.87%;
+    top: 12.25%;
     left: 70%;
     transform: translateX(-50%);
   }
@@ -184,8 +193,8 @@ body {
   .curveImg {
     position: absolute;
     width: 42%;
-    height: 150.94px;
+    height: 18.86%;
     left: 0px;
-    top: 649.06px;
+    top: 81.113%;
   }
 }
