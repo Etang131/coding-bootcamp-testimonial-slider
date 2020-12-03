@@ -16,7 +16,7 @@ body {
 
 .container {
   max-height: 100%;
-  max-width: 100%;
+  max-width: 1440px;
 }
 
 /* If any other slides are added they need to be displayed out*/
@@ -34,7 +34,6 @@ body {
   background: #ebebeb;
   box-shadow: 0px 40px 50px -30px rgba(36, 36, 113, 0.495001);
   border-radius: 5px;
-  margin-top: 5vh;
   width: 254px;
   max-width: 540px;
 }
@@ -107,7 +106,7 @@ button:hover {
   width: 16%;
   height: 50px;
   left: 42.13%;
-  top: 324px;
+  top: 52%;
 }
 
 .curveImg {
@@ -181,7 +180,7 @@ button:hover {
   .purpleBlob {
     width: 50%;
     height: 77.87%;
-    top: 12.25%;
+    top: 8.25%;
     left: 70%;
     transform: translateX(-50%);
   }
